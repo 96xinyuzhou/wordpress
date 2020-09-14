@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Project Introduction](#project introduction)
-- [Technical Aspects](#technical aspects)
-- [How to](#how to)
+- [Project Introduction](#project_introduction)
+- [Technical Aspects](#technical_aspects)
+- [How to](#how_to)
 
 ## Project Introduction
 
