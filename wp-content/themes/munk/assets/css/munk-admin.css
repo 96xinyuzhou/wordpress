@@ -1,0 +1,215 @@
+.munk-container {
+    max-width: 1140px;
+    padding: 0px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.munkbox {
+    position: relative;
+    min-width: 255px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 1;
+}
+.munk-options-header {
+    overflow: hidden;
+    padding: 25px;
+    border: 1px solid #dedfe1;
+    margin: 25px 0 0 0;
+}
+.munk-options-header .munk-logo {
+    width: 19%;
+    float: left;
+    position: relative;
+}
+.munk-options-header .munk-logo img {
+    max-width: 180px;
+    height: auto;    
+}
+.munk-options-header .munk-theme-desc {
+    text-align: right;
+    width: 79%;
+    float: right;
+    padding-top: 5px;
+}
+.munk-options-header .munk-theme-desc p {
+    font-size:12px;
+}
+
+.munk-options-body {
+    background-color: #f8f9fb;
+    padding: 25px;
+    border: 1px solid #dedfe1;
+    border-top: none;
+    overflow: hidden;
+}
+.munk-options-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.munk-body-left {
+    float: left;
+    width: 65%;
+    padding: 0px 0px;
+}
+.munk-customizer-link {
+    overflow: hidden;      
+    border: 1px solid #eee;    
+    border-bottom: none;
+    border-right: none;    
+    
+}
+.munk-customizer-link h4.hndle {
+    padding: 15px 15px;
+    font-size:14px;    
+    margin: 0px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.munk-customizer-link ul {
+    list-style: none;    
+    margin: 0px;
+}
+.munk-customizer-link ul li {
+    width: 50%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.munk-customizer-link ul li a {
+    border-bottom: 1px solid #eee;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-right: 1px solid #eee;
+    padding: 15px 15px;
+}
+.munk-customizer-link ul li a svg {
+    margin-bottom: -8px;
+    margin-right: 6px;
+}
+.munk-pro-features {
+    margin-top: 35px;
+}
+.munk-pro-features h3 {
+    margin-bottom: 10px;
+}
+.munk-pro-feature-single {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px 25px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+.munk-pro-feature-single .text-holder {
+    float: left;
+    width: 70%;
+}
+.munk-pro-feature-single p.title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.munk-pro-feature-single p.required_plugin {
+    float: right;
+    margin-top: 25px;
+    color: red;
+}
+.munk-pro-feature-single .button {
+    float: right;
+    margin-top: 10px;
+}
+.munk-body-right {
+    float: left;
+    width: 33%;
+    padding: 0;  
+    margin-left: 2%;
+}
+.munk-option-sidebox {
+    border: 1px solid #eee;
+}
+.munk-option-sidebox h4.hndle {
+    padding: 15px 15px;
+    font-size:14px;    
+    margin: 0px;
+    border-right: 0px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.munk-option-sidebox img {
+    max-width: 100%;
+    height: auto;
+}
+.munk-option-sidebox .sidebox-body {
+    padding: 20px;
+    margin: 0px;
+}
+.munk-option-sidebox .sidebox-body p {
+    margin: 0 0 10px 0;
+}
+
+@media (min-width: 120px) and (max-width: 767px) { 
+    .munk-options-header .munk-logo {
+        width: 100%;
+    }
+    .munk-options-header .munk-theme-desc {
+        width: 100%;
+        text-align: left;
+    }    
+    .munk-body-left {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .munk-body-right {
+        width: 100%;
+        margin: 0%;
+    }
+    .munk-customizer-link ul li {
+        width: 100%;
+    }
+    .munk-pro-feature-single {
+        padding: 15px;
+    }
+    .munk-pro-feature-single .text-holder {
+        width: 100%;
+    }
+    .munk-pro-feature-single .button {
+        float: left;
+    }
+    .munk-pro-feature-single p.required_plugin {
+        float: left;
+        margin-top: 5px;        
+    }    
+}
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .munk-options-header .munk-logo {
+        width: 100%;
+    }
+    .munk-options-header .munk-theme-desc {
+        width: 100%;
+        text-align: left;
+    }    
+    .munk-options-body {
+        padding: 20px 0px;
+    }    
+    .munk-pro-features p.munk-desc,
+    .munk-pro-features h3 {
+        padding-left: 25px;
+    }
+    .munk-pro-feature-single .text-holder {
+        width: 100%;
+    }
+    .munk-pro-feature-single .button {
+        float: left;
+    }    
+    .munk-pro-feature-single p.required_plugin {
+        float: left;
+        margin-top: 5px;        
+    }     
+}

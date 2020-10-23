@@ -1,0 +1,21 @@
+li.customize-control-kirki-radio-image img {
+    max-width: 100%;
+    margin: 0px 15px 15px 0px;
+}
+
+.customize-control-kirki-dimensions .wrapper .control > div {
+    width: 20%;
+}
+
+.customize-control-kirki-radio-image .image label {
+    width: 29%;
+    margin-right: 10px;
+}
+
+.multicolor-single-color-wrapper .wp-color-result-text {
+    padding: 3px 6px !important;
+}
+
+.multicolor-single-color-wrapper .color-alpha {
+    height: 28px !important;
+}

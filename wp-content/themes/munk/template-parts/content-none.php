@@ -1,0 +1,37 @@
+<?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package munk
+ */
+?>
+
+
+        
+            <section class="no-results not-found">
+                <header class="page-header">
+                    <h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'munk' ); ?></h1>
+                </header><!-- .page-header -->
+            
+                <div class="page-content">
+            
+                    <?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
+                        <?php /* translators: %s: hyperlink to add new post in dashboard for loggedin users */ ?>
+                        <p><?php printf( esc_html( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'munk' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+            
+                    <?php elseif ( is_search() ) : ?>
+            
+                        <p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'munk' ); ?></p>
+                        <?php get_search_form(); ?>
+            
+                    <?php else : ?>
+            
+                        <p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching might help.', 'munk' ); ?></p>
+						<?php get_search_form(); ?>
+                    <?php endif; ?>
+            
+                </div><!-- .page-content -->
+            </section><!-- .no-results -->            
+        
